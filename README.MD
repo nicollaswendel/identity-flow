@@ -43,6 +43,8 @@ A simple **HTML, CSS and JavaScript frontend** was implemented to interact with 
 - SLF4J Logger
 - MySQL
 
+⚠️ This project requires a local MySQL database configuration to run.
+
 ## Frontend
 
 - HTML5
@@ -61,34 +63,6 @@ identity-flow/
 │
 └── identity-flow-frontend/ # Static frontend interface
 ```
-
----
-
-
----
-
-# ▶️ How to Run the Project
-
-## 1️⃣ Backend (Spring Boot)
-
-1. Open `identity-flow-backend` in **IntelliJ IDEA**
-2. Configure the **MySQL database connection** in `application.properties`
-3. Run the main application class
-
-API will start at:
-http://localhost:8080
-
----
-
-## 2️⃣ Frontend
-
-1. Open `identity-flow-frontend` in **VSCode**
-2. Install the **Live Server extension**
-3. Right-click `login.html`
-4. Click **"Open with Live Server"**
-
-Frontend will run at something like:
-http://127.0.0.1:5500
 
 ---
 
